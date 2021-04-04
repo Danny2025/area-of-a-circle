@@ -12,3 +12,9 @@ print (" Area Of a Circle with the radius " )
 print(radius)
 print(":")
 print ( area )
+
+#A file name from user and it's extension as output
+
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+print ("The extension of the file is : " + repr(f_extns[-1]))
